@@ -1,0 +1,27 @@
+[
+  {
+    "name": "MacBook Pro",
+    "type": "Laptop",
+    "status": "Active"
+  },
+  {
+    "name": "Dell XPS",
+    "type": "Laptop",
+    "status": "Inactive"
+  },
+  {
+    "name": "iPhone 13",
+    "type": "Mobile",
+    "status": "Active"
+  },
+  {
+    "name": "Samsung Galaxy S22",
+    "type": "Mobile",
+    "status": "Inactive"
+  },
+  {
+    "name": "HP LaserJet",
+    "type": "Printer",
+    "status": "Active"
+  }
+]
