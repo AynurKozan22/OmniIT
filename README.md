@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OmniIT - IT Management Portal
 
-## Getting Started
+## Project Overview
+OmniIT is a powerful IT management portal designed to help businesses and IT professionals efficiently manage their devices and infrastructure. It provides a streamlined dashboard for viewing, adding, and managing IT assets in a professional and user-friendly manner.
 
-First, run the development server:
+## Features
+- **User Authentication**: Secure login system for IT administrators and users.
+- **Dashboard**: A professional UI with an overview of IT devices.
+- **Device Management**: Add, remove, and monitor IT assets.
+- **Real-time Updates**: View the status of devices with real-time updates.
+- **Dark Mode Support**: Modern UI with light and dark mode options.
+- **3D Animations**: Enhanced user experience with smooth animations.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Technologies Used
+- **Next.js** - React-based framework for server-side rendering and routing.
+- **Tailwind CSS** - Utility-first CSS framework for modern styling.
+- **Framer Motion** - Animations and smooth UI transitions.
+- **Lottie** - JSON-based animations for enhanced visuals.
+- **Local Storage** - Temporary storage for user session management.
+
+## 📂 Project Structure
+```
+OmniIT/
+│── public/                # Static assets (e.g., animations, images)
+│── src/
+│   ├── app/
+│   │   ├── page.js       # Login page
+│   │   ├── dashboard/    # Dashboard UI
+│   │   ├── devices/      # Device management
+│   ├── components/       # Reusable UI components (Sidebar, Cards, etc.)
+│── package.json          # Dependencies and scripts
+│── tailwind.config.js    # Tailwind CSS configuration
+│── next.config.js        # Next.js configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting Started
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/OmniIT.git
+cd OmniIT
+```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+### 3️⃣ Run the Development Server
+```bash
+npm run dev
+```
+🔗 Open [http://localhost:3000](http://localhost:3000) to view the project in the browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Learn More
+---
+ **Follow OmniIT for updates and improvements!** 
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
