@@ -20,7 +20,7 @@ export default function Login() {
 
     if (email === user.email && password === user.password) {
       setError("");
-      localStorage.setItem("user", JSON.stringify(user));
+      localStorage.setItem("loggedInUser", JSON.stringify(user));
       router.push("/dashboard");
     } else {
       setError("E-posta veya şifre hatalı!");
