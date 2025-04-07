@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import { SidebarProvider } from "../context/sidebarContext";
 import "./globals.css";
 
-export default function RootLayout({ children }) {
 function AuthenticatedLayout({ children }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -54,6 +53,7 @@ function AuthenticatedLayout({ children }) {
     </SidebarProvider>
   );
 }
+
 export default function RootLayout({ children }) {
   return (
     <html lang="tr">
