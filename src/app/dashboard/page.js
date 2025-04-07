@@ -8,7 +8,7 @@ export default function Dashboard() {
   const router = useRouter();
 
   useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
+    const loggedInUser = localStorage.getItem("loggedInUser");
     if (!loggedInUser) {
       router.push("/");
     } else {
@@ -24,7 +24,7 @@ export default function Dashboard() {
           <h1 className="text-3xl font-bold text-gray-700">
             Hoş Geldiniz, {user?.email} 🎉
           </h1>
-          <p className="text-gray-600 mt-2">Dashboard’a giriş yaptınız!</p>
+          <p className="text-gray-600 mt-2">Dashboard&apos;a giriş yaptınız!</p>
         </div>
       </div>
     </div>
